@@ -4,36 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa1135c7-7e7f-4801-b5e7-6080ac3712c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Hive_monitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/beekeeping.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/controllers/apiary_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/controllers/auth_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/controllers/hive_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/apiary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/hive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/sensor_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/utils/styling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/utils/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/apiary_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/dashboard_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/prediction_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new try/views/updated_apiary_page.py" afterDir="false" />
+    <list default="true" id="fa1135c7-7e7f-4801-b5e7-6080ac3712c9" name="Changes" comment="this is a tkinter option">
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/apiary_data.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/controllers/main_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/models/database_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/views/login_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lastDitchEffort/views/main_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/past tries/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/past tries/login_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/past tries/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/past tries/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new try/controllers/hive_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/new try/controllers/hive_controller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.dashboard_and_prediction.executor": "Run",
     "Python.font_size_change.executor": "Run",
     "Python.gui.executor": "Run",
     "Python.gui1.executor": "Run",
@@ -76,14 +60,20 @@
     "Python.home_page.executor": "Run",
     "Python.login_page.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.resiable_frame.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/past tries" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="dashboard_and_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hive_monitor" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,33 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lastDitchEffort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gui12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Hive_monitor" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lastDitchEffort/dashboard_and_prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/past tries/home_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login_page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/past tries/login_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,6 +161,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hive_monitor" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lastDitchEffort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lastDitchEffort/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Hive_monitor" />
       <option name="ENV_FILES" value="" />
@@ -206,7 +196,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/past tries/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.dashboard_and_prediction" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.home_page" />
         <item itemvalue="Python.login_page" />
-        <item itemvalue="Python.gui12" />
-        <item itemvalue="Python.gui" />
       </list>
     </recent_temporary>
   </component>
@@ -241,9 +231,20 @@
       <option name="presentableId" value="Default" />
       <updated>1720273512724</updated>
     </task>
+    <task id="LOCAL-00001" summary="this is a tkinter option">
+      <option name="closed" value="true" />
+      <created>1720512622373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720512622373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="this is a tkinter option" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is a tkinter option" />
   </component>
 </project>
